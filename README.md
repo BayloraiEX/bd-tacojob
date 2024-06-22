@@ -14,7 +14,7 @@ EXAMPLE:
 
 Copy and paste this into your qb-core --> shared --> jobs.lua
 ```
-tacohut = {
+taco = {
 		label = 'Taco Hut',
 		defaultDuty = true,
 		offDutyPay = false,
