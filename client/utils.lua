@@ -40,8 +40,8 @@ local function CreateLocalNPC(index)
 
     ------| CREATING PED |------
     local tacoGaragePed = CreatePed(1, cfg.tacoGaragePedModel, cfg.tacoGaragePedLocation, false, true)
-        FreezeEntityPosition(tacoBurgerGaragePed, true)
-        SetEntityInvincible(tacoBurgerGaragePed, true)
+        FreezeEntityPosition(tacoGaragePed, true)
+        SetEntityInvincible(tacoGaragePed, true)
         SetBlockingOfNonTemporaryEvents(tacoGaragePed, true)
         ----- | CREATING TARGET FOR PED | -----
         exports['qb-target']:AddTargetEntity(tacoGaragePed, { 
