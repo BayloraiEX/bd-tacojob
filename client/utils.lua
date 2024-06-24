@@ -116,6 +116,13 @@ exports['qb-target']:AddBoxZone("TacoHutClock", vector3(8.2, -1607.38, 29.38), 1
 			label = "Clock In/Out",
 			job = "taco",
 		},
+			{
+            type = "client",
+            event = "qb-bossmenu:client:OpenMenu",
+			icon = "fa-solid fa-right-to-bracket",
+			label = "Boss Menu",
+			job = {["taco"] = 4},
+		},
 	},
 	distance = 2.5
 })
